@@ -1,0 +1,61 @@
+<input type="checkbox" id="nav-toggle" />
+<div class="sidebar">
+  <div class="sidebar-brand">
+    <h2><span class="lab la-accusoft"></span><span>PR Report</span></h2>
+  </div>
+  <div class="sidebar-menu">
+    <ul>
+      <li>
+        <a routerLink="dashboard" class="nav-link" routerLinkActive="active"
+          ><span class="las la-home"></span> <span>Dashboard</span></a
+        >
+      </li>
+      <li>
+        <a routerLink="analytic" class="nav-link" routerLinkActive="active"
+          ><span class="las la-file-invoice-dollar"></span> <span>Analytics</span></a
+        >
+      </li>
+      <li>
+        <a href="" class="nav-link" routerLinkActive="active"
+          ><span class="las la-cog"></span> <span>Business Rules</span></a
+        >
+      </li>
+
+      <li>
+        <a href="" class="nav-link" routerLinkActive="active"
+          ><span class="las la-user-circle"></span> <span>Account</span></a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="main-content">
+  <header>
+    <h2>
+      <label for="nav-toggle">
+        <span class="las la-bars"></span>
+      </label>
+      {{title}}
+    </h2>
+
+    <div class="search-wrapper">
+      <span class="las la-search"></span>
+      <input type="search" placeholder="Search here" />
+    </div>
+
+    <div class="user-wrapper">
+      <img src="assets/1.png" width="40px" height="40px" alt="" />
+      <div>
+        <h4>Ananta Raj Pant</h4>
+        <small>Super admin</small>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+    <footer>
+      <app-footer></app-footer>
+    </footer>
+</div>

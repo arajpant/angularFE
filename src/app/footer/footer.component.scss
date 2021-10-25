@@ -1,0 +1,15 @@
+social-footer-icons {
+    li:last-of-type {
+      margin-right: 0;
+    }
+
+    .lab {
+      font-size: 1.5rem;
+      color: #fff;
+
+      &:hover {
+        color: darken(grey, 25%);
+        transition: color 0.3s ease-in;
+      }
+    }
+  }
