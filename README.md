@@ -40,7 +40,7 @@ In this section, we will learn how to set up a local development environment to 
 1. Download and Install node (node comes with npm) (website: https://nodejs.org/en)
 <p>
   <figure>
-    &nbsp;&nbsp;&nbsp; <img src="./_images_angular7/2.3.1_nodejs.png" alt="nodejs website" title="nodejs website" width="600" border="2" />
+    &nbsp;&nbsp;&nbsp; <img src="./images_angular/2.3.1_nodejs.png" alt="nodejs website" title="nodejs website" width="600" border="2" />
     <figcaption>&nbsp;&nbsp;&nbsp; Image - Nodejs website - https://nodejs.org/en</figcaption>
   </figure>
 </p>
@@ -50,7 +50,7 @@ In this section, we will learn how to set up a local development environment to 
 
 <p>
   <figure>
-    &nbsp;&nbsp;&nbsp; <img src="./_images_angular7/2.3.2_angular_cli.png" alt="Angular CLI website" title="Angular CLI website" width="600" border="2" />
+    &nbsp;&nbsp;&nbsp; <img src="./images_angular/2.3.2_angular_cli.png" alt="Angular CLI website" title="Angular CLI website" width="600" border="2" />
     <figcaption>&nbsp;&nbsp;&nbsp; Image - Angular CLI website - https://cli.angular.io/</figcaption>
   </figure>
 </p>
