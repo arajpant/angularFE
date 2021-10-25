@@ -7,6 +7,7 @@ Topics include
 
 1. [Getting Started](#01-getting-started)
 2. [Angular First Hello World App](#02-angular-first-hello-world-app)
+3. [Angular CSS Implementation](#02-angular-css-implementation)
 
 01 Getting Started
 =====================
@@ -89,3 +90,17 @@ In this section, we will learn how to set up a local development environment to 
 - To Build and run Angular App, command: `ng serve / npm start` OR `ng serve -o` OR `ng serve --open`
 - To change port from 4200 to other port - type command:  `ng serve --port 5000`
 - To check the application in browser type path/url: `localhost:4200 / 5000`
+
+
+03 Angular CSS Implementation
+=====================
+
+- Implementation of CSS for Admin dashboard look.
+- Implementation of routings.
+- run `npm start` or `ng serve`
+- get following dashboard.
+<p>
+  <figure>
+    &nbsp;&nbsp;&nbsp; <img src="./images_angular/websiteDesign.png" alt="Angular Dashboard layout" title="Angular Dashboard layout" width="700" border="2" />
+  </figure>
+</p>
