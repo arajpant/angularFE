@@ -24,7 +24,6 @@ export class AppComponent {
       .subscribe(() => {
         var rt = this.getChild(this.activatedRoute)
         rt.data.subscribe((data: { title: string; }) => {
-          console.log(data);
           this.title = data.title;
           this.titleService.setTitle(data.title)})
       })
